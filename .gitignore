@@ -1,0 +1,26 @@
+# Rust build artifacts
+target/
+debug/
+release/
+Cargo.lock
+
+# WASM-related
+pkg/
+*.wasm
+
+# Trunk (Yew bundler) generated files
+dist/
+trunk.lock
+
+# Node.js (if used for frontend assets)
+node_modules/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp files
+*.log
+*.tmp
